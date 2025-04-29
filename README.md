@@ -1,8 +1,16 @@
-# Backend-con-Flask-GraphQL-para-una-tienda-online
+🛒 Backend de Tienda Online — Flask + GraphQL
+¡Bienvenido al proyecto de gestión de inventario de una tienda online! 
 
-Este proyecto tiene como objetivo el desarrollo del backend para una tienda online utilizando Flask y GraphQL.
-El backend gestiona el inventario de productos que fueron previamente mostrados en un frontend en Vue desarrollado en una práctica anterior.
-La base de datos se mantiene en memoria, mediante una lista de productos, y ofrece funcionalidades para consultar todos los productos, así como modificar su stock.
-Además, el backend implementa la lógica necesaria para actualizar automáticamente el campo disponible de cada producto en función de su stock, garantizando la coherencia entre el estado real del inventario y lo mostrado en el frontend.
+Tras haber desarrollado en la práctica anterior un frontend dinámico en Vue.js, ahora damos el siguiente gran paso: construir un backend robusto utilizando Flask y GraphQL.
 
-El proyecto busca reforzar el uso práctico de GraphQL en combinación con Flask, implementando consultas (queries) y mutaciones (mutations) de manera eficiente y coherente.
+Este backend es el corazón que gestiona los productos de la tienda, permitiendo:
+
+Consultar todos los productos disponibles.
+
+Modificar el stock de los productos en tiempo real.
+
+Actualizar automáticamente su disponibilidad según el inventario.
+
+Toda la información de productos se almacena en memoria mediante una lista de Python, asegurando agilidad y simplicidad para este entorno de práctica.
+
+Además, integramos lógica inteligente que garantiza que el campo disponible siempre refleje fielmente el estado real del stock, fortaleciendo la consistencia del sistema y mejorando la experiencia de usuario final.
