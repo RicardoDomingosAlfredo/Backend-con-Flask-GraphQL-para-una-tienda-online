@@ -1,4 +1,4 @@
-🛒 Backend de Tienda Online — Flask + GraphQL
+# 🛒 Backend de Tienda Online — Flask + GraphQL #
 ¡Bienvenido al proyecto de gestión de inventario de una tienda online! 
 
 Tras haber desarrollado en la práctica anterior un frontend dinámico en Vue.js, ahora damos el siguiente gran paso: construir un backend robusto utilizando Flask y GraphQL.
